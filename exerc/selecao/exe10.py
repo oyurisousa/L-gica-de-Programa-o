@@ -1,4 +1,5 @@
-"""Escreva um programa que leia um caractere do teclado e forneça na tela uma das seguintes mensagens:
+"""
+Escreva um programa que leia um caractere do teclado e forneça na tela uma das seguintes mensagens:
 Caractere Mensagem 
 A ou a Alteração 
 C ou c Consulta 
