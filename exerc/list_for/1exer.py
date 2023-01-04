@@ -12,7 +12,7 @@ while True:
     quant_pessoas = int(input("quantas pessoas serão hospedadas no quarto? "))
 
     for x in range(quant_pessoas):
-        nomes.append(input(f"nome da pesoa {x+1}: "))
+        nomes.append(input(f"nome da pessoa {x+1}: "))
         for i in range(1):
             cpf.append(input(f"CPF de {nomes [x]}: "))
             print("")
