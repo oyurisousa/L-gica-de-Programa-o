@@ -7,9 +7,18 @@ while True:
         quant_quartos += 1
     elif quarto == "n":
         print("nenhum quarto escolhido.")
-        break    
+        break 
+    else:
+        print("por favor digite um valor válido(s/n)")
+        break
 
-    quant_pessoas = int(input("quantas pessoas serão hospedadas no quarto? "))
+    while True:
+        quant_pessoas = int(input("quantas pessoas serão hospedadas no quarto(até 4 pessoas)? "))
+        if quant_pessoas > 4 or quant_pessoas< 0:
+            print("------------------------------------------------------------")
+            print("Valor limite é quatro pessoas por quarto, tente novamente!")
+        else:
+            break
 
     for x in range(quant_pessoas):
         nomes.append(input(f"nome da pessoa {x+1}: "))
